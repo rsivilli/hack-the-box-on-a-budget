@@ -14,3 +14,6 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+
+# .terraform.lock.hcl is intentionally committed — it pins provider versions
+# for reproducible deployments (like package-lock.json)
