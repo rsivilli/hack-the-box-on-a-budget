@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# terraform.tfvars is gitignored by default — don't commit it.
+
+project_id   = "your-gcp-project-id"   # e.g. "my-ctf-project-123456"
+region       = "us-central1"            # keep this for free tier
+zone         = "us-central1-a"
+machine_type = "e2-micro"               # free tier — upgrade to e2-small if needed

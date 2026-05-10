@@ -1,0 +1,16 @@
+# Terraform state — never commit these
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Terraform vars contain project IDs and potentially sensitive values
+terraform.tfvars
+
+# Terraform crash logs
+crash.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
